@@ -65,7 +65,7 @@ The edges represent undirected edges, so `A-B` is the same as `B-A`, thus it is 
 ### Info example
 `java -jar build/libs/rumor-spread-simulation-all.jar info --graph myGraph.txt --verbose`
 
-Where myGraph.txt contains the above mentioned graph.
+Where `myGraph.txt` contains the above mentioned graph.
 
 Example output:
 
@@ -81,7 +81,7 @@ Vergex expansion: 0.5
 ### Simulation example
 `java -jar build/libs/rumor-spread-simulation-all.jar simulation --count 10 --algorithm pp1 --graph myGraph.txt --csv result.csv`
 
-Where myGraph.txt contains the above mentioned graph.
+Where `myGraph.txt` contains the above mentioned graph.
 
 Content of `result.csv`:
 
